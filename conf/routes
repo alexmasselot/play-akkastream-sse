@@ -1,0 +1,4 @@
+
+GET        /ticks             controllers.StreamController.tick
+GET        /actor-flow        controllers.StreamController.actorFlow
+
