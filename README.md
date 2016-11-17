@@ -12,7 +12,7 @@ This project expose 3 ways to generate SSE:
  * **WORKS** `http://locahost:9000/ticks` shoots texts via `Source.tick`
  * **FAILS** `http://localhost:9000/actor-flow` does not shoot two messages via a akkastream Source.actorRef
  * **SOLUTION** `http://localhost:9000/actor-flow-ok` shoots two messages via a akkastream Source.actorRef
-
+ * ** ENHANCEMENT** `http://localhost:9000/actor-flow-interrupt` (based on (http://loicdescotte.github.io/posts/play-akka-streams-queue/)) show how to build a queue and have it interrupted when the client closes the connection
 
 Check with curl:
 

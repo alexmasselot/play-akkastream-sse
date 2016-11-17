@@ -2,4 +2,5 @@
 GET        /ticks             controllers.StreamController.tick
 GET        /actor-flow        controllers.StreamController.actorFlow
 GET        /actor-flow-ok        controllers.StreamController.actorFlowWorking
+GET        /actor-flow-interrupt        controllers.StreamController.actorFlowInterrupt
 
